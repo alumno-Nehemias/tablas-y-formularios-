@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEHEMIAS 4°3°</title>
+</head>
+<body>
+    a)_Que es un formulario html y para que sirve ?<br>
+    b)_Cuales son las etiquetas html (tags) básicas  ?<br>
+    resp.
+    <p>a)_Es un componente diseñado para contener controles para interactuar con el usuario para enviar informacion recolectada al servidor.De todos sus atributos son habitulmente utilizados ACTION="", Y METHOD=""</p>
+    <p>b)_las etiquetas que utliza es:Button(summit y reset), summit(text,tele,email,password,date,checkbox,radio,datetime,file,number,range) y form</p>
+    <h1>FORMULARIO DE MOTO</h1>
+    <form action="get">
+        <fieldset>
+            <legend>DATOS DEL PROPIETARIO</legend>
+            nombre del propietario:
+            <input type="text" placeholder="ingrese nombre" required/><br>
+            apellido:
+            <input type="text" placeholder="ingrese apellido" required/><br>
+            email:
+            <input type="email" placeholder="ingrese email" required/><br>
+            fecha de nacimiento
+            <input type="date"/><br>
+            genero:
+            <input name="masculino" type="checkbox" value="masculino" required/>masculino<br>
+            <input name="femenino" type="checkbox" value="femenino" required/>femenino<br>
+        </fieldset>
+        <fieldset>
+            <legend>DATOS DE LA MOTO</legend>
+            matricula
+            <input type="text" placeholder="ingrese matricula" required/><br>
+            marca de la moto
+            <input name="honda" type="checkbox" value="honda" />honda<br>
+            <input name="zanella" type="checkbox" value="zanella" />zanella<br>
+            <input name="motomel" type="checkbox" value="motomel" />motomel<br>
+            <input name="yamaha" type="checkbox" value="yamaha" />yamaha<br>
+            <input name="crypton" type="checkbox" value="crypton" />crypton<br>
+            <input name="corven" type="checkbox" value="corven" />corven<br>
+            <input name="otro" type="checkbox" value="otro" />otro<br>
+            <input type="text" placeholder="especifique la marca" /> especifique la marca<br>
+        </fieldset>
+        <fieldset>
+            <legend>COMENTARIOS</legend>
+            <input type="textarea">
+        </fieldset>
+        <button type="summit">enviar</button>
+    </form>
+</body>
+</html>
